@@ -1,0 +1,398 @@
+<!-- Main Wrapper simulating a Mac window or desktop app container -->
+<div class="max-w-6xl mx-auto mac-window rounded-2xl overflow-hidden shadow-2xl">
+    
+    <!-- macOS Window Title Bar -->
+    <div class="bg-slate-900/80 px-4 py-3 border-b border-slate-800 flex items-center justify-between select-none">
+        <div class="flex items-center space-x-2">
+            <span class="w-3 h-3 bg-red-500 rounded-full inline-block cursor-pointer hover:opacity-80"></span>
+            <span class="w-3 h-3 bg-yellow-500 rounded-full inline-block cursor-pointer hover:opacity-80"></span>
+            <span class="w-3 h-3 bg-green-500 rounded-full inline-block cursor-pointer hover:opacity-80"></span>
+        </div>
+        <div class="text-xs font-medium text-slate-400 tracking-wider">
+            <i class="fa-brands fa-apple mr-1"></i> OngHockSoon_Portfolio.app — bash — 80x24
+        </div>
+        <div class="text-xs text-slate-500 hidden sm:block">
+            macOS Sonoma v14.5
+        </div>
+    </div>
+
+    <!-- Portfolio Content Area -->
+    <div class="p-6 sm:p-10 space-y-12">
+
+        <!-- Hero Header Section -->
+        <header class="flex flex-col md:flex-row items-center justify-between gap-8 pb-8 border-b border-slate-800/80">
+            <div class="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+                <!-- Avatar / Profile Ring -->
+                <div class="relative group">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+                    <div class="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-slate-800 flex items-center justify-center border-2 border-slate-700 overflow-hidden shadow-inner">
+                        <!-- Placeholder icon or initials if image isn't local -->
+                        <i class="fa-solid fa-user-tie text-5xl text-blue-400"></i>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-white">Ong Hock Soon</h1>
+                    <p class="text-blue-400 font-medium mt-1 text-lg">Senior IT Engineer | Infrastructure & Cloud Operations Specialist</p>
+                    <div class="flex flex-wrap justify-center sm:justify-start gap-4 mt-3 text-sm text-slate-400">
+                        <span><i class="fa-solid fa-location-dot mr-1.5 text-blue-500"></i> Singapore 520701</span>
+                        <span><i class="fa-solid fa-phone mr-1.5 text-green-500"></i> +65.8157.4576</span>
+                        <span><i class="fa-solid fa-envelope mr-1.5 text-amber-500"></i> wfshun@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Action Buttons / Social Links -->
+            <div class="flex flex-wrap gap-3 justify-center">
+                <a href="mailto:wfshun@gmail.com" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition shadow-lg shadow-blue-600/30 flex items-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Contact Me
+                </a>
+                <a href="https://wfshun.wordpress.com" target="_blank" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium text-sm transition border border-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-globe"></i> WordPress
+                </a>
+            </div>
+        </header>
+
+        <!-- Objective Section -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-4 text-blue-500/10 text-7xl font-bold pointer-events-none">
+                <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-white mb-3 flex items-center gap-2">
+                <i class="fa-solid fa-terminal text-blue-400"></i> Professional Objective
+            </h2>
+            <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                To contribute meaningfully in a dynamic and innovative environment where I can leverage my technical expertise and management skills to drive operational excellence and support the organization's success.
+            </p>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <i class="fa-solid fa-briefcase text-blue-500"></i> Professional Experience
+            </h2>
+            
+            <div class="space-y-6">
+                <!-- Job 1 -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior Engineer</h3>
+                            <p class="text-blue-400 font-medium text-sm">PCS Security Pte Ltd (Managed Service)</p>
+                        </div>
+                        <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/30 text-blue-300 rounded-full text-xs font-semibold w-fit">
+                            November 2020 – Present
+                        </span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm mb-4">
+                        <li>Served as Acting Shift Lead for 24/7 operations, ensuring seamless business continuity.</li>
+                        <li>Monitored system and network performance utilizing Elastic and CA UMI tools.</li>
+                        <li>Conducted data analysis in Kibana to identify service incidents and provided actionable findings to Support Teams.</li>
+                        <li>Managed and administered ServiceNow ticketing systems and enforced strict incident escalation SOPs.</li>
+                        <li>Collaborated with end-users, support squads, and security officers for rapid incident resolution and upkeep.</li>
+                        <li>Worked closely with Platform Solution Teams to recommend architectural enhancements for the Elastic environment.</li>
+                        <li>Provided infrastructure support for VMware vCloud, ServiceNow, and contributed to Azure Cloud operations as a Data Center Technician (DCT).</li>
+                    </ul>
+                    <div class="bg-slate-900/60 rounded-xl p-4 border border-slate-800">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-2"><i class="fa-solid fa-award mr-1"></i> Key Achievements</span>
+                        <ul class="list-disc list-inside space-y-1 text-slate-300 text-xs sm:text-sm">
+                            <li class="text-slate-200">Developed custom PowerShell scripts to automate browser tasks and alternate tabs between active web services.</li>
+                            <li class="text-slate-200">Created comprehensive operational guides for Elastic Monitoring and ServiceNow ticketing for NOC daily checks.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">System Administrator</h3>
+                            <p class="text-blue-400 font-medium text-sm">Intrado EC Singapore Pte Ltd (Global Technology Services)</p>
+                        </div>
+                        <span class="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-full text-xs font-semibold w-fit">
+                            November 2020
+                        </span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                        <li>Managed IT systems for Singapore office and Data Centre, delivering Tier 1 & Tier 2 support.</li>
+                        <li>Supported APAC region corporate systems and Call Centre applications to ensure uninterrupted user experience.</li>
+                        <li>Led hardware refresh projects and image deployments utilizing Microsoft Deployment Toolkit (MDT).</li>
+                        <li>Coordinated vendor management and Exchange to Office 365 migrations for APAC users in tandem with US headquarters.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior Engineer</h3>
+                            <p class="text-blue-400 font-medium text-sm">Trend Micro (Information System)</p>
+                        </div>
+                        <span class="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-full text-xs font-semibold w-fit">
+                            Dec 2018 – Jan 2020
+                        </span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                        <li>Managed IT systems for Trend Micro's new regional HQ in Singapore and the AEME region.</li>
+                        <li>Oversaw operation of Zoom Conference and Avaya IP Telephone systems.</li>
+                        <li>Led multimedia setups and delivered executive IT support for Mac and Windows environments.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Associate Web Services Product Support</h3>
+                            <p class="text-blue-400 font-medium text-sm">Sabre Corporation (Asia Pacific) (Travel Network)</p>
+                        </div>
+                        <span class="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-full text-xs font-semibold w-fit">
+                            Apr 2017 – Nov 2018
+                        </span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                        <li>Supported global customers utilizing SOAP and REST APIs across Air, Car, Hotel, and Cruise services.</li>
+                        <li>Resolved complex integration issues and provided consultative guidance on API best practices.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 5 -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior Associate Engineer</h3>
+                            <p class="text-blue-400 font-medium text-sm">Singapura Finance (Information Services)</p>
+                        </div>
+                        <span class="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-full text-xs font-semibold w-fit">
+                            Jan 2017 – Apr 2017
+                        </span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm">
+                        <li>Managed daily operations of computer systems and data center supporting Core Banking environments.</li>
+                        <li>Led modernization projects from conceptualization to deployment, providing key recommendations.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 6 -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Staff Engineer</h3>
+                            <p class="text-blue-400 font-medium text-sm">Rockwell Collins Information Management Services</p>
+                        </div>
+                        <span class="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-full text-xs font-semibold w-fit">
+                            May 2012 – Jan 2017
+                        </span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm mb-4">
+                        <li>Delivered multi-country IT support across 12 countries for 200+ staff members.</li>
+                        <li>Administered Active Directory, Exchange operations, and executed daily backup routines.</li>
+                        <li>Partnered with global security teams to fortify Asia-based systems through proactive patching and threat mitigation.</li>
+                    </ul>
+                    <div class="bg-slate-900/60 rounded-xl p-4 border border-slate-800">
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-2"><i class="fa-solid fa-award mr-1"></i> Key Achievement</span>
+                        <p class="text-slate-300 text-xs sm:text-sm">Implemented Hyper-V virtualization, dramatically accelerating deployment setup times and reducing regional hardware footprints.</p>
+                    </div>
+                </div>
+
+                <!-- Additional Past Roles (Collapsed summary card for clean UI) -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 bg-slate-900/40">
+                    <h3 class="text-base font-bold text-slate-200 mb-3"><i class="fa-solid fa-clock-rotate-left mr-2 text-blue-400"></i> Early Career & Specialized Contracts (2003 – 2012)</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-300">
+                        <div class="bg-slate-800/40 p-3 rounded-xl border border-slate-700/50">
+                            <strong class="text-white block">Senior Associate Engineer | ST Electronic</strong>
+                            <span class="text-slate-400">Aug 2011 – May 2012 • Config Management, Server Hardening, Marathon EverRun</span>
+                        </div>
+                        <div class="bg-slate-800/40 p-3 rounded-xl border border-slate-700/50">
+                            <strong class="text-white block">IT Consultant | Doric Solution LLP</strong>
+                            <span class="text-slate-400">Apr 2007 – Jul 2011 • Domain Controllers, File Server Migrations, Spiceworks</span>
+                        </div>
+                        <div class="bg-slate-800/40 p-3 rounded-xl border border-slate-700/50">
+                            <strong class="text-white block">IT Executive | Nanyang Technological University</strong>
+                            <span class="text-slate-400">Nov 2004 – Apr 2007 • SBS Lab Support, Acronis Deployment, Linux/Windows Admin</span>
+                        </div>
+                        <div class="bg-slate-800/40 p-3 rounded-xl border border-slate-700/50">
+                            <strong class="text-white block">Technical Specialist | Hewlett Packard (MINDEF)</strong>
+                            <span class="text-slate-400">MINDEF Project Support • Novell Netware, ARCserve Backups</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Technical Skills Grid -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <i class="fa-solid fa-microchip text-blue-500"></i> Technical Stack & Skills
+            </h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Operating Systems -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Operating Systems</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Windows Server 2012R2/16/22</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">CentOS</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">RedHat Linux</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Ubuntu</span>
+                    </div>
+                </div>
+
+                <!-- Virtualization & Cloud -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Virtualization & Cloud</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Microsoft Hyper-V</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">VMware ESXi</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">VMware vCloud</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Azure DCT Operations</span>
+                    </div>
+                </div>
+
+                <!-- Scripting & Automation -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-green-500/10 text-green-400 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Scripting Languages</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">PowerShell Automation</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">XML</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">JSON</span>
+                    </div>
+                </div>
+
+                <!-- Monitoring & Tools -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Monitoring & ITSM</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Elastic Stack / Kibana</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">CA UMI</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">ServiceNow Admin</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">BigFix Patching</span>
+                    </div>
+                </div>
+
+                <!-- Security & Identity -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-red-500/10 text-red-400 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Security & Identity</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Entrust Identity Guard</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">DUO MFA</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Active Directory</span>
+                    </div>
+                </div>
+
+                <!-- Backup & Enterprise -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center font-bold">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Backup & Office 365</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">CA ARCserve Backup</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Symantec Ghost</span>
+                        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-300">Microsoft Office 365</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Education -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <i class="fa-solid fa-certificate text-blue-500"></i> Certifications & Education
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Certs Card -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8">
+                    <h3 class="font-bold text-white text-lg mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-award text-amber-400"></i> Professional Certifications
+                    </h3>
+                    <div class="space-y-3 text-sm text-slate-300">
+                        <div>
+                            <strong class="text-white block mb-1">Microsoft Azure & Security:</strong>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-104</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-204</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-305</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-400</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-500</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-700</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">AZ-900</span>
+                                <span class="px-2 py-0.5 bg-blue-900/40 border border-blue-700/50 text-blue-300 rounded text-xs font-mono">SC-900</span>
+                            </div>
+                        </div>
+                        <div class="pt-2">
+                            <strong class="text-white block mb-1">Networking, Cloud & Frameworks:</strong>
+                            <ul class="list-disc list-inside space-y-1 text-xs sm:text-sm text-slate-300">
+                                <li>Cisco Certified Network Associate (CCNA) — Valid till Oct 2026</li>
+                                <li>AWS Architecting Certification (Completed)</li>
+                                <li>ITIL v4 Foundation & ServiceNow Fundamentals</li>
+                                <li>CISSP (Completed Training)</li>
+                                <li>Occupational First Aid Course (OFAC)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Card -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-white text-lg mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-graduation-cap text-blue-400"></i> Education & Languages
+                        </h3>
+                        <div class="space-y-4 text-sm text-slate-300">
+                            <div class="bg-slate-900/40 p-4 rounded-xl border border-slate-800">
+                                <strong class="text-white block text-base">Diploma in Computer Engineering</strong>
+                                <p class="text-blue-400 text-sm mt-0.5">Temasek Polytechnic</p>
+                                <span class="text-xs text-slate-400 mt-1 block"><i class="fa-regular fa-calendar mr-1"></i> June 2000</span>
+                            </div>
+                            <div class="bg-slate-900/40 p-4 rounded-xl border border-slate-800">
+                                <strong class="text-white block text-base mb-1">Languages Spoken</strong>
+                                <p class="text-slate-300 text-sm">English, Chinese, Hokkien</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+            <p>&copy; 2026 Ong Hock Soon. Designed with macOS glassmorphism aesthetic.</p>
+            <div class="flex items-center space-x-4">
+                <a href="https://wfshun.wordpress.com" target="_blank" class="hover:text-blue-400 transition">WordPress</a>
+                <span>•</span>
+                <a href="mailto:wfshun@gmail.com" class="hover:text-blue-400 transition">Email</a>
+                <span>•</span>
+                <a href="#" class="hover:text-blue-400 transition">Back to top ↑</a>
+            </div>
+        </footer>
+
+    </div>
+</div>
